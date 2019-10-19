@@ -1,6 +1,0 @@
-# hoverit
-Compañia de monitoreo
-
-
-INICIALIAZAR API EN PUERTO 3001
-INICIALIZAR FRONT EN PUERTO 3000
