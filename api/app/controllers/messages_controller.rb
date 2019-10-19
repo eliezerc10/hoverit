@@ -30,7 +30,7 @@ class MessagesController < ApplicationController
 
     respond_to do |format|
 	    if @message.save
-	      format.html { redirect_to '/' }
+	      format.html { redirect_to '/' } #status 302
 	      format.json { render json: @message.to_json }
 	    else
 	      format.html { render 'new'} ## Specify the format in which you are rendering "new" page
